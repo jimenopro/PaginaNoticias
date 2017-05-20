@@ -94,3 +94,35 @@ margin-bottom:75px;
 
 	margin-top:100px;
 }
+.text-right{
+	font-size:11px;
+}
+
+@media screen and (max-width: 800px) {
+
+#publi{
+height:90px;
+width:100%;
+position:fixed;
+bottom:0px;
+left:0px;
+}
+
+#noticias{
+width: 100%;
+padding-left:0px;
+}
+
+.news{
+background-color:#D8D8D8;
+width:100%;
+border-radius: 5px;
+border: 2px solid #6E6E6E;
+margin-bottom: 50px;
+box-shadow: 10px 10px 5px #888888;
+}
+#content{
+background-color:#BDBDBD;
+padding-top:50px;
+}
+}

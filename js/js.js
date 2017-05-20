@@ -1,16 +1,31 @@
-// $( document ).ready() // window.onload=function... al cargar la página
+var countjson = 0;
+var fileNames = ["json.json", "json2.json"];
+
 $(function() {
-  //leer y parsear
-  $.getJSON( "https://rawgit.com/urbinapro/news/master/data/names.json", function( jsonObject  ) {
-    pintar(jsonObject );
-  });
+	
+  
+    $( "#carga" ).click(function() { loadNews();});
+  
   
 });
 
-//una de las muchas formas de rellenar el contenido con los datos recibidos
-// json es una lista de objectos con los datos, i es el índice de la lista (hay 3 empleados), empleado es un objeto con firtName i lastName.
-function pintar(json){
+function cargarNoticia(json){
+	
   $.each( json, function( i, noticia ) {
-    $("#noticiascargadas").append( "<h1 id='" + i + "'>" + noticia.titulo + " " + "</li>" );
+    $("#noticiascargadas").append( '<div class="' + "news" + '">'+"<h1 id='" + i + "'>" + noticia.titulo + "</h1>"+ "<center>"+'<img id="imgnews1" class="'+ "img-responsive"+'" src="'+noticia.img+'" />'+"</center>"+"<br>"+"<strong>"+noticia.categoria+"</strong>"+"<br><br>" +"<p>"+noticia.descripcion+"</p>"+"<p class='text-right'>"+noticia.fecha+"</p>"+"</div>" );
+  	$("#barralado").append("<li>"+"<a>"+noticia.categoria+"</a>"+"</li>");
   });  
+}
+
+function loadNews() {
+	
+    if (countjson < fileNames.length) {
+        var name = fileNames[countjson];
+        countjson++;
+        $.getJSON("https://rawgit.com/jimenopro/PaginaNoticias/master/data/" + name, function (jsonObject) {
+            cargarNoticia(jsonObject);
+        });
+    } else {
+        alert("Ya has visto todas las noticias");
+    }
 }

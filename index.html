@@ -21,33 +21,34 @@
                 <p>Página de noticias y resumenes de las juntas Iluminatis</p>
             </div>
         </div>
-        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="314">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">Illuminati</a>
-                </div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Inicio</a></li>
-                    <li><a href="#">Foros</a></li>
-                    <li><a href="#">About</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Regístrate</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Accede</a></li>
-                </ul>
-                <form class="navbar-form navbar-left">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Buscar</button>
-                </form>
-            </div>
-        </nav>
+        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="314" data-toggle="collapse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Illuminati</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Foros</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Regístrate</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Accede</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
         <div id="content" class="container-fluid">
             <div id="publi">
                 <img src="img/publi5.gif" class="img-responsive" alt="Iluminati-logo" id="publi2">
                 <nav class="col-sm-3" id="columna">
-                    <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="930">
+                    <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="930" id="barralado">
                         <li><a href="news1.html">Donald Trump Muerto</a></li>
                         <li><a href="news2.html">3GM Illuminati</a></li>
                         <li><a href="#">Donald Trump Illuminati</a></li>
@@ -61,26 +62,31 @@
                     <a href="news1.html"><img src="img/donald1.png" class="img-responsive" alt="donaldtrump" id="fotonoticia1"></a><br>		
                     <strong>Estados Unidos.</strong><br><br>
                     <p>Según la teoría de conspiración sobre Donald Trump el ahora presidente de Estados Unidos es un clon plantado por los illuminati después de que lo mataron en los 80.</p>
-                </div>
+					<p class="text-right">1, Marzo 2017</p>
+				</div>
                 <div class="news" class="rounded" class="well well-lg">
 
                     <h1><a href="news2.html">¿Cómo se preparan los Illuminati para la Tercera Guerra Mundial? Una teoría que se ha vuelto viral</a></h1><br>
                     <center><a href="news2.html"><img src="img/ojo.png" class="img-responsive" alt="donaldtrump" id="fotonoticia1"></a></center><br>		
                     <strong>Illuminati.</strong><br><br>
                     <p>Los miembros de la secta Illuminati se preparan para la III Guerra Mundial, según la teoría conspirativa que se ha hecho viral recientemente tras la publicación del usuario stevestig76, supuesto exmiembro de los Illuminati en la red social Imgur, informa 'Daily Star'. La teoría ya apareció el año pasado en varios medios, pero no despertó tanta polémica como tras la citada publicación.</p>
-
+					<p class="text-right">19, Febrero 2017</p>
                 </div>
                 <div class="news" class="rounded">
                     <h1>Illuminati o Nuevo Orden Mundial, teorías conspirativas se tejen en torno a Trump</h1><br>
                     <center><img src="img/Trump2.jpg" class="img-responsive" alt="donaldtrump" id="fotonoticia1"></center><br>		
                     <strong>Illuminati.</strong><br><br>
                     <p>El presidente electo Donald Trump después de salir victorioso en las elecciones, el 9 de noviembre</p>
+					<p class="text-right">6, Febrero 2017</p>
                 </div>
+
+                <div id="noticiascargadas"></div>
             </div>
 					<button type="button" class="btn btn-primary" id="carga">Cargar más noticias</button>
+
         </div>
 
-        <div id="noticiascargadas"></div>
+
         <footer id="footer">
             <p>Desarrollado por: Jose Jimeno</p>
             <p>Contacto: jose.jimeno7@gmail.com</p>
