@@ -62,6 +62,7 @@ border-radius: 3px;
 font-family:OpenSans;
 font-size:14px;
 padding-bottom:14px;
+z-index: 1000;
 }
 
 #boton-noticias{
@@ -124,5 +125,13 @@ box-shadow: 10px 10px 5px #888888;
 #content{
 background-color:#BDBDBD;
 padding-top:50px;
+}
+#barralado{
+display:none;
+}
+#footer{
+	padding-bottom:100px;
+	font-size:10px;
+	padding-left:30px;
 }
 }
