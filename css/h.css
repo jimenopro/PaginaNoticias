@@ -99,6 +99,11 @@ margin-bottom:75px;
 	font-size:11px;
 }
 
+#video{
+ width=90%;
+ height=90%;
+}
+
 @media screen and (max-width: 800px) {
 
 #publi{
@@ -133,5 +138,8 @@ display:none;
 	padding-bottom:100px;
 	font-size:10px;
 	padding-left:30px;
+}
+h1{
+	font-size:23px !important;
 }
 }

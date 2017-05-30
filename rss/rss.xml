@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Noticias Illuminati</title>
+  <link>https://rawgit.com/jimenopro/PaginaNoticias/master/index.html</link>
+  <description>Página de noticias y resumenes de las juntas Iluminatis</description>
+  <language>es-ES</language>
+
+  <item>
+    <title>Teoría illuminati afirma que Donald Trump está muerto</title>
+    <link>https://rawgit.com/jimenopro/PaginaNoticias/master/news1.html</link>
+    <description>Según la teoría de conspiración sobre Donald Trump el ahora presidente de Estados Unidos es un clon plantado por los illuminati después de que lo mataron en los 80.</description>
+  </item>
+
+  <item>
+    <title>¿Cómo se preparan los Illuminati para la Tercera Guerra Mundial? Una teoría que se ha vuelto viral.</title>
+    <link>https://rawgit.com/jimenopro/PaginaNoticias/master/news2.html</link>
+    <description>Los miembros de la secta Illuminati se preparan para la III Guerra Mundial, según la teoría conspirativa que se ha hecho viral recientemente tras la publicación del usuario stevestig76, supuesto exmiembro de los Illuminati en la red social Imgur, informa 'Daily Star'. La teoría ya apareció el año pasado en varios medios, pero no despertó tanta polémica como tras la citada publicación.</description>
+  </item>
+  
+    <item>
+    <title>Illuminati o Nuevo Orden Mundial, teorías conspirativas se tejen en torno a Trump.</title>
+    <link>https://rawgit.com/jimenopro/PaginaNoticias/master/index.html#</link>
+    <description>El presidente electo Donald Trump después de salir victorioso en las elecciones, el 9 de noviembre</description>
+  </item>
+
+</channel>
+</rss> 
