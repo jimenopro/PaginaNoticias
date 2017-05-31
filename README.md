@@ -1,7 +1,7 @@
 # Pagina de Noticias
 # Planificación
 
-  · Body de fondo gris y fondo de las noticias con 'div' de diversas tonalidades de gris para un diseño agradable de ver y conforme con la temática de la página (se busca elegancia).
+  · Body de fondo gris y fondo de las noticias con 'div' de diversas tonalidades de gris para un diseño agradable de ver y conforme con la temática de la página (se busca elegancia).<br>
   · Jumbotron con un título descriptivo de la página, logo y fondo uniforme de color gris.
   · Barra de navegación debajo del jumbotron que cuando se haga scroll con la página, quede 'fixed' arriba todo el rato. Tiene links a la página de inicio ('Home') y podría tener más funcionalidades (de momento botones vacíos de diseño).
   · Publicidad de 300 px de ancho a la derecha de la pagina.
