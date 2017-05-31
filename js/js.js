@@ -29,3 +29,8 @@ function loadNews() {
         alert("Ya has visto todas las noticias");
     }
 }
+    $(window).scroll(function(){
+     if ($(window).scrollTop() == $(document).height() - $(window).height()){
+      loadNews();
+     }					
+    });
