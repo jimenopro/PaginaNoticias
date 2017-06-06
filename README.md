@@ -17,4 +17,4 @@ Link a la página: https://rawgit.com/jimenopro/PaginaNoticias/master/index.html
 
 ### Versión Movil
 
-<a href="https://raw.githubusercontent.com/jimenopro/PaginaNoticias/master/img/IMG_20170606_215044.jpg" target="_blank"><img src="https://raw.githubusercontent.com/jimenopro/PaginaNoticias/master/img/IMG_20170606_215044.jpg" border="0" alt="Boceto"></a>
+<a href="https://raw.githubusercontent.com/jimenopro/PaginaNoticias/master/img/IMG_20170606_215044.jpg" target="_blank"><img src="https://raw.githubusercontent.com/jimenopro/PaginaNoticias/master/img/IMG_20170606_215044.jpg" border="0" alt="Boceto" max-height="300px"></a>
